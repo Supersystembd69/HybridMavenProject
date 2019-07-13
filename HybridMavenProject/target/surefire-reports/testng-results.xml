@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-11T22:58:00Z" name="testCases.HybridExceuteTestCase" finished-at="2019-07-11T22:58:14Z" duration-ms="14401">
+    <groups>
+    </groups>
+    <test started-at="2019-07-11T22:58:00Z" name="Command line test" finished-at="2019-07-11T22:58:14Z" duration-ms="14401">
+      <class name="testCases.HybridExceuteTestCase">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:00Z" name="SetUp" finished-at="2019-07-11T22:58:05Z" duration-ms="5209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:06Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:06Z" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Our WebSite Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:06Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:07Z" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GOTOURL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:07Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:07Z" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SENDKEYS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ataur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:07Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:07Z" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SENDKEYS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tarafder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:07Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:07Z" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SENDKEYS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ataur@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:07Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:07Z" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SENDKEYS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Aemail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ataur@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:07Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:07Z" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SENDKEYS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[atarar5655]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:07Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:10Z" duration-ms="3002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THREAD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:10Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:10Z" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:10Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:10Z" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SELECT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Month]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:10Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:10Z" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SELECT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Day]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:10Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:10Z" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SELECT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Year]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:10Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:13Z" duration-ms="3016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THREAD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:13Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:13Z" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[PARTIALLINKTEXT]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:13Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:14Z" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LINKCOUNTING]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+        <test-method signature="UnderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExceuteTestCase@5a63f509]" started-at="2019-07-11T22:58:14Z" name="UnderTest" data-provider="hybridData" finished-at="2019-07-11T22:58:14Z" duration-ms="596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QUIT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnderTest -->
+      </class> <!-- testCases.HybridExceuteTestCase -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testCases.HybridExceuteTestCase -->
+</testng-results>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EdgeBrowserTest(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="webdriverManager.CrossBroweser">
+        <methods>
+          <include name="CrossBrowserTest"/>
+          <include name="OurWebsiteTest"/>
+        </methods>
+      </class> <!-- webdriverManager.CrossBroweser -->
+    </classes>
+  </test> <!-- EdgeBrowserTest(failed) -->
+  <test thread-count="5" name="IEBrowserTest(failed)">
+    <parameter name="browserName" value="IE"/>
+    <classes>
+      <class name="webdriverManager.CrossBroweser">
+        <methods>
+          <include name="CrossBrowserTest"/>
+          <include name="OurWebsiteTest"/>
+        </methods>
+      </class> <!-- webdriverManager.CrossBroweser -->
+    </classes>
+  </test> <!-- IEBrowserTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

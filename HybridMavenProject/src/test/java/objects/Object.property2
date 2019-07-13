@@ -1,0 +1,9 @@
+
+Website=file:///E:/WebSite/SuperTech.html
+SOM=//*[@id="menu"]/ul/li[2]/a 
+Google=Google
+GoogleSearch=q
+SCB=//*[@id="btnConfirm"]
+Facebook=Facebook
+FN=firstname
+Fname=//*[@id="form2"]/input[1]

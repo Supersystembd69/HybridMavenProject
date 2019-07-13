@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testCases.HybridExceuteTestCase]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.HybridExceuteTestCase">
+        <methods>
+          <include name="SetUp"/>
+          <include name="UnderTest" invocation-numbers="13"/>
+        </methods>
+      </class> <!-- testCases.HybridExceuteTestCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testCases.HybridExceuteTestCase] -->

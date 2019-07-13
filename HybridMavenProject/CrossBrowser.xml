@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  
+  <test thread-count="5" name="ChromeBrowserTest">
+  <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="webdriverManager.CrossBroweser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="FirefoxBrowserTest">
+  <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="webdriverManager.CrossBroweser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="EdgeBrowserTest">
+  <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="webdriverManager.CrossBroweser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="IEBrowserTest">
+  <parameter name="browserName" value="IE"/>
+    <classes>
+      <class name="webdriverManager.CrossBroweser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
