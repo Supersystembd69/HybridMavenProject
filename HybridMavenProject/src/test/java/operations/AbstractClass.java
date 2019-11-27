@@ -9,6 +9,9 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -24,8 +27,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public abstract class AbstractClass {
 	
 	protected static WebDriver driver;
+	protected static Logger logger;
 	@BeforeTest
 	public void SetUp() {
+		
+		logger=Logger.getLogger("Hybrid Frame Work");
+		PropertyConfigurator.configure("Log4j.properties");
+		logger.setLevel(Level.DEBUG);
+		
 		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\java\\drivers\\chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();

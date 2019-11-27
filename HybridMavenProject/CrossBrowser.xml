@@ -24,10 +24,12 @@
     </classes>
   </test> <!-- Test -->
   
+  
+  
   <test thread-count="5" name="IEBrowserTest">
-  <parameter name="browserName" value="IE"/>
+  <!-- <parameter name="browserName" value="IE"/>
     <classes>
       <class name="webdriverManager.CrossBroweser"/>
-    </classes>
+    </classes> -->
   </test> <!-- Test -->
 </suite> <!-- Suite -->

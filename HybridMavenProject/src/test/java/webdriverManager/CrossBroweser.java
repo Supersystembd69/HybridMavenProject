@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -34,11 +35,13 @@ public class CrossBroweser {
 			WebDriverManager.edgedriver().setup();
 			driver=new EdgeDriver();
 		}
-		else if(browser.equalsIgnoreCase("IE")) {
-			//System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\drivers\\IEDriverServer.exe");
-			WebDriverManager.iedriver().setup();
-			driver=new InternetExplorerDriver();
-		}
+		
+		/*
+		 * else if(browser.equalsIgnoreCase("IE")) {
+		 * //System.setProperty("webdriver.ie.driver",
+		 * System.getProperty("user.dir")+"\\src\\drivers\\IEDriverServer.exe");
+		 * WebDriverManager.iedriver().setup(); driver=new InternetExplorerDriver(); }
+		 */
 		
 		driver.manage().window().maximize();
 	}

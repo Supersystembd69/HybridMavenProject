@@ -12,15 +12,4 @@
       </class> <!-- webdriverManager.CrossBroweser -->
     </classes>
   </test> <!-- EdgeBrowserTest(failed) -->
-  <test thread-count="5" name="IEBrowserTest(failed)">
-    <parameter name="browserName" value="IE"/>
-    <classes>
-      <class name="webdriverManager.CrossBroweser">
-        <methods>
-          <include name="CrossBrowserTest"/>
-          <include name="OurWebsiteTest"/>
-        </methods>
-      </class> <!-- webdriverManager.CrossBroweser -->
-    </classes>
-  </test> <!-- IEBrowserTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

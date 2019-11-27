@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriverManager.HowToUseWebDriverManager">
+      <class name="excelReaderPack.ExcelDataProviderTest">
         <methods>
-          <include name="WebDriverManagerTest"/>
-          <include name="teardown"/>
-          <include name="setUp"/>
+          <include name="SetUp"/>
+          <include name="UnderTest"/>
         </methods>
-      </class> <!-- webdriverManager.HowToUseWebDriverManager -->
+      </class> <!-- excelReaderPack.ExcelDataProviderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
